@@ -140,13 +140,13 @@ a {
 
 .bg-image {
   background-size: cover;
-  background-repeat: no-rpeeat;
+  background-repeat: no-repeat;
   overflow: hidden;
   background-position: center center; }
   .bg-image.center {
     background-position: top center; }
   .bg-image.fixed {
-    background-position: fixed !important; }
+    background-attachment : fixed !important; }
   .bg-image.overlay, .bg-image.overlay-primary, .bg-image.overlay-info, .bg-image.overlay-success, .bg-image.overlay-warning {
     position: relative; }
     .bg-image.overlay:before, .bg-image.overlay-primary:before, .bg-image.overlay-info:before, .bg-image.overlay-success:before, .bg-image.overlay-warning:before {
@@ -1412,8 +1412,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  background: #fff; 
-	
+  background: #fff;
 	}
   .program .heading {
     font-size: 18px;
@@ -1466,7 +1465,6 @@ a {
   opacity: 1; }
 
 .img-opacity:hover {
-  cursor: -webkit-zoom-in;
   cursor: zoom-in; }
   .img-opacity:hover img {
     opacity: .5; }
@@ -1518,5 +1516,9 @@ a {
   display: none;
   cursor: pointer;
   color: #2e6e9e;
+}
+
+hiddenContent{
+  display: none;
 }
 
