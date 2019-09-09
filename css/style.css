@@ -1427,17 +1427,13 @@ a {
 	height: 140px;
 	overflow: hidden;
 }
-.program .program-body .para:hover {
-	height: auto;
-	min-height: 140px;
-	overflow: visible;
-}
     .program .program-body .span {
       font-weight: 400;
       font-size: .9rem;
 	}
-      .program .program-body .span .icon {
+    .program .program-body .span .icon {
         color: #96dae4; }
+
   .program > .thumbnail {
     overflow: hidden;
     position: relative; }
@@ -1511,3 +1507,16 @@ a {
         border-color: #000; }
     .pricing .btn.pill {
       border-radius: 30px; }
+
+.readMore{
+  display: inline;
+  cursor: pointer;
+  color: #2e6e9e;
+}
+
+.readLess{
+  display: none;
+  cursor: pointer;
+  color: #2e6e9e;
+}
+
