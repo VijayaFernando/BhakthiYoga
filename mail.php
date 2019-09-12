@@ -1,6 +1,14 @@
 <?php
     if(isset($_POST['email']))
     {
+        $secretKey = '6LdGoLcUAAAAAOQnjmeIlTXhOdgYyxtFYkxx52Cd';
+        $captcha = $_POST['g-recaptcha-response'];
+
+        if(!$captcha){
+            echo '<p class="alert alert-warning">Please check the the captcha form.</p>';
+            exit;
+        }
+
         $to = "info@bhakthiyogasrilanka.com";
         $subject = "Mail from the Website";
 
@@ -47,22 +55,36 @@
             died($error_message);
         }
 
-        $from = $_POST['email'];
-        $firstname = $_POST['fullname'];
-        $phone = $_POST['phone'];
-        $emailbody = $firstname . " " . " wrote the following:" . "\n\n" . $_POST['message'];
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
+        $responseKeys = json_decode($response,true);
 
-        $headers = "From:" . $fullname;
+        if(intval($responseKeys["success"]) !== 1) {
+            echo '<p class="alert alert-warning">Please check the the captcha form.</p>';
+        } else {
+            $from = $_POST['email'];
+            $firstname = $_POST['fullname'];
+            $phone = $_POST['phone'];
+            $emailbody = $firstname . " " . " wrote the following:" . "\n\n" . $_POST['message'] . "\n\nTel: " . $phone;
 
-        if(mail($to,$subject,$emailbody,$headers))
-            echo "<font colour='green' >Mail Sent. Thank you </font>" . $firstname . ", we will contact you shortly.";
-        else
-            echo"Mail Sent Failed";
-            
-       echo '<script>
-        setTimeout(function() {
+            $headers = "From:" . $fullname;
+
+            if(mail($to,$subject,$emailbody,$headers))
+                echo "<font colour='green' >Mail Sent. Thank you </font>" . $firstname . ", we will contact you shortly.";
+            else
+                echo"Mail Sent Failed";
+
+            echo '<script>
+            setTimeout(function() {
             //your code to be executed after 1 second
-        }, 300000);
-       window.location.href = "../";
-       </script>';
+            
+            }, 300000);
+            window.location.href = "../";
+            </script>';
+            }
+
+    }else {
+        # Not a POST request, set a 403 (forbidden) response code.
+        http_response_code(403);
+        echo '<p class="alert alert-warning">There was a problem with your submission, please try again.</p>';
     }
