@@ -1408,6 +1408,15 @@ a {
   color: #fff;
   display: inline-block; }
 
+.teampara{
+  height: 140px;
+  overflow: hidden;
+}
+
+.qualipara{
+  font-size: smaller;
+}
+
 .program {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
