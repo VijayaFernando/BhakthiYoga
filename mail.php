@@ -67,7 +67,7 @@
             $phone = $_POST['phone'];
             $emailbody = $firstname . " " . " wrote the following:" . "\n\n" . $_POST['message'] . "\n\nTel: " . $phone;
 
-            $headers = "From:" . $fullname;
+            $headers = "From:" . $from;
 
             if(mail($to,$subject,$emailbody,$headers))
                 echo "<font colour='green' >Mail Sent. Thank you </font>" . $firstname . ", we will contact you shortly.";
