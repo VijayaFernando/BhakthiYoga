@@ -48,7 +48,7 @@
           <div class="py-1">
             <div class="row align-items-center">
               <div class="col-2">
-                <a href="index.html"><img src="images/logo.png" alt="Image" class="img-fluid"></a>
+                <a href="index.php"><img src="images/logo.png" alt="Image" class="img-fluid"></a>
               </div>
               <div class="col-10">
                 <nav class="site-navigation text-right" role="navigation">
@@ -57,7 +57,7 @@
                     <div class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a></div>
                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                       <li class="active">
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                       </li>
                       <li class="has-children">
                         <a >Yoga Classes</a>
@@ -67,7 +67,7 @@
                           <li><a href="#2">Guided Meditation</a></li>
                           <li><a href="#3">Personalized Yoga</a></li>
                           <li class="has-children">
-                            <a href="index.html#4">More</a>
+                            <a href="index.php#4">More</a>
                             <ul class="dropdown">
                               <li><a href="#4">Reiki Healing</a></li>
                               <li><a href="#5">Body Therapy</a></li>
