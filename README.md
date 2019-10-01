@@ -1,1 +1,1 @@
-# BhakthiYoga
+# BhakthiYogaSriLanka
