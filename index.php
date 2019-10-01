@@ -94,7 +94,7 @@
     
     <div class="slide-one-item home-slider owl-carousel">
       
-      <div class="site-blocks-cover overlay" style="background-image: url(images/hero_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+      <div class="site-blocks-cover overlay" style="background-image: url(images/slider_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-md-12 text-center" data-aos="fade">
@@ -114,7 +114,29 @@
             </div>
           </div>
         </div>
-      </div> 
+      </div>
+
+        <div class="site-blocks-cover overlay" style="background-image: url(images/slider21.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-12 text-center" data-aos="fade">
+                        <h2 class="caption mb-2">Yoga for everybody</h2>
+                        <h1 class="" >Welcome To <br>Bhakthi Yoga Sri Lanka</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-blocks-cover overlay" style="background-image: url(images/slider31.jpeg);" data-aos="fade" data-stellar-background-ratio="0.5">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-12 text-center" data-aos="fade">
+                        <h2 class="caption mb-2">Yoga for everybody</h2>
+                        <h1 class="" >Welcome To <br>Bhakthi Yoga Sri Lanka</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="site-block-half d-flex">
