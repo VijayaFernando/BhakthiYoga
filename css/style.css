@@ -1477,6 +1477,12 @@ a {
       font-size: 18px;
       font-weight: 300;
     }
+
+.program .heading3{
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .program .heading2 a {
   color: #000; }
 
@@ -1485,6 +1491,10 @@ a {
 .program .program-body .para {
 	height: 140px;
 	overflow: hidden;
+}
+
+.program .program-body .para2 {
+  height: 140px;
 }
     .program .program-body .span {
       font-weight: 400;
