@@ -59,23 +59,8 @@
                       <li class="active">
                         <a href="index.php">Home</a>
                       </li>
-                      <li class="has-children">
-                        <a >Yoga Classes</a>
-                        <ul class="dropdown arrow-top">
-                          <li><a href="#1">Ashtanga Yoga</a></li>
-							<li><a href="#1">Hatha Yoga</a></li>
-                          <li><a href="#2">Guided Meditation</a></li>
-                          <li><a href="#3">Personalized Yoga</a></li>
-                          <li class="has-children">
-                            <a href="index.php#4">More</a>
-                            <ul class="dropdown">
-                              <li><a href="#4">Reiki Healing</a></li>
-                              <li><a href="#5">Body Therapy</a></li>
-                              <li><a href="#6">Stress Management</a></li>
-                            </ul>
-                          </li>
-
-                        </ul>
+                      <li>
+                        <a href="classes.html">Yoga Classes</a>
                       </li>
                         <li><a href="events.html">Host Events</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
