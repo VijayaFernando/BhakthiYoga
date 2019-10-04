@@ -31,6 +31,7 @@
   
   <div class="site-wrap">
 
+      <!-- start mobile menu -->
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -38,19 +39,19 @@
         </div>
       </div>
       <div class="site-mobile-menu-body"></div>
-    </div> <!-- .site-mobile-menu -->
-    
-    
-    <div class="site-navbar-wrap js-site-navbar bg-white">
-      
+    </div>
+      <!-- End Mobile menu -->
+
+      <!--start nav bar -->
+    <div class="site-navbar-wrap js-site-navbar">
       <div class="container">
-        <div class="site-navbar bg-light">
+        <div class="site-navbar">
           <div class="py-1">
             <div class="row align-items-center">
-              <div class="col-2">
-                <a href="index.php"><img src="images/logo.png" alt="Image" class="img-fluid"></a>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 ">
+                <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="Image" class="img-fluid"></a>
               </div>
-              <div class="col-10">
+                <div class="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-8 ">
                 <nav class="site-navigation text-right" role="navigation">
                   <div class="container">
                     
@@ -75,8 +76,9 @@
         </div>
       </div>
     </div>
-  
-    
+      <!--end nav bar -->
+
+      <!-- Start home slider -->
     <div class="slide-one-item home-slider owl-carousel">
       
       <div class="site-blocks-cover overlay" style="background-image: url(images/slider_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
@@ -123,6 +125,7 @@
             </div>
         </div>
     </div>
+      <!-- End home slider -->
 
     <div class="site-block-half d-flex">
       <div class="image bg-image" style="background-image: url('images/img_1.jpg');"></div>
@@ -220,35 +223,42 @@
               </div>
             </div>
           </div>
+        </div>
 
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-5">
-              <!-- Facebook feed start-->
-        <div class="fb-page" data-href="https://www.facebook.com/bhakthiyogasrilanka/" data-tabs="timeline" data-width="" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-            <blockquote cite="https://www.facebook.com/bhakthiyogasrilanka/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bhakthiyogasrilanka/">Bhakthi Yoga Sri Lanka</a></blockquote>
-        </div>
-              <!-- Facebook feed End-->
+          <div class="row">
+              <div class="col-md-6 mx-auto text-center mb-5 section-heading">
+                  <h2 class="mb-5">Social Media Feeds</h2>
+              </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mb-5">
 
-              <!-- Instagram feed start-->
-        <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/B3GzWg4JJDl/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; max-height: 700px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-            <div style="padding:16px;">
-                <a href="https://www.instagram.com/p/B3GzWg4JJDl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
-                    <div style=" display: flex; flex-direction: row; align-items: center;">
-                        <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
-                        <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
-                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
-                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
-                        </div>
-                    </div>
-                    <div style="padding: 19% 0;"></div>
-                    <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
-                        <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
-                            <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g>
-                                        <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186
+        <div class="row">
+
+            <!-- Facebook feed start-->
+          <div class="col-md-6 col-lg-4 mb-5">
+            <div class="fb-page" data-href="https://www.facebook.com/bhakthiyogasrilanka/" data-tabs="timeline" data-width="" data-height="700" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/bhakthiyogasrilanka/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/bhakthiyogasrilanka/">Bhakthi Yoga Sri Lanka</a></blockquote>
+            </div>
+          </div>
+            <!-- Facebook feed End-->
+
+            <!-- Instagram feed start-->
+          <div class="col-md-6 col-lg-4 mb-5">
+              <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/B3GzWg4JJDl/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; max-height: 700px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                  <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/B3GzWg4JJDl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank">
+                          <div style=" display: flex; flex-direction: row; align-items: center;">
+                              <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+                              <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                  <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+                                  <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+                              </div>
+                          </div>
+                          <div style="padding: 19% 0;"></div>
+                          <div style="display:block; height:50px; margin:0 auto 12px; width:50px;">
+                              <svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
+                                  <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g>
+                                              <path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186
                                         554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076
                                         558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50
                                         C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50
@@ -276,59 +286,55 @@
                                         79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,
                                         73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,
                                         50 C571,41.851 570.966,40.831 570.82,37.631"></path>
-                                    </g></g></g>
-                        </svg>
-                    </div>
-                    <div style="padding-top: 8px;">
-                        <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
-                            View this post on Instagram
-                        </div>
-                    </div>
-                    <div style="padding: 12.5% 0;"></div>
-                    <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
-                        <div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
-                            <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
-                            <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
-                        </div>
-                        <div style="margin-left: 8px;">
-                            <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
-                            <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
-                        </div>
-                        <div style="margin-left: auto;">
-                            <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
-                            <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
-                            <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
-                        </div>
-                    </div>
-                </a>
-                <p style=" margin:8px 0 0 0; padding:0 4px;">
-                    <a href="https://www.instagram.com/p/B3GzWg4JJDl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">
-                        Only You &amp; Your Mat 🕉 When you walk onto your mat you enter a precious space. A space that is not about performance but
-                        about what it is that you need at this moment. A space to listen to your body &amp; mind and find the flow that will connect
-                        all of You together. Nameste 🙏 ... #namaste #yogainsrilanka #srilankayoga #yog #overcomefear #overcomeanxiety #listen
-                        #breath #lovewhatyouhear #acceptwhatis #colombo #colombocity #problems #solutions #strongeryou #yogi #youcandothis
-                        #addictionrecovery #🙏
-                    </a>
-                </p>
-                <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
-                    A post shared by
-                    <a href="https://www.instagram.com/bhakthiyogasrilanka/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">
-                        Bhakthi Yoga Sri Lanka
-                    </a>
-                    (@bhakthiyogasrilanka) on
-                    <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-10-02T06:47:05+00:00">Oct 1, 2019 at 11:47pm PDT</time>
-                </p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-              <!-- Instagram feed End-->
-
+                                          </g></g></g>
+                              </svg>
+                          </div>
+                          <div style="padding-top: 8px;">
+                              <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:500; line-height:18px;">
+                                  View this post on Instagram
+                              </div>
+                          </div>
+                          <div style="padding: 12.5% 0;"></div>
+                          <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                              <div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+                                  <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+                                  <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+                              </div>
+                              <div style="margin-left: 8px;">
+                                  <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+                                  <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+                              </div>
+                              <div style="margin-left: auto;">
+                                  <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                  <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+                                  <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+                              </div>
+                          </div>
+                      </a>
+                      <p style=" margin:8px 0 0 0; padding:0 4px;">
+                          <a href="https://www.instagram.com/p/B3GzWg4JJDl/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">
+                              Only You &amp; Your Mat 🕉 When you walk onto your mat you enter a precious space. A space that is not about performance but
+                              about what it is that you need at this moment. A space to listen to your body &amp; mind and find the flow that will connect
+                              all of You together. Nameste 🙏 ... #namaste #yogainsrilanka #srilankayoga #yog #overcomefear #overcomeanxiety #listen
+                              #breath #lovewhatyouhear #acceptwhatis #colombo #colombocity #problems #solutions #strongeryou #yogi #youcandothis
+                              #addictionrecovery #🙏
+                          </a>
+                      </p>
+                      <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                          A post shared by
+                          <a href="https://www.instagram.com/bhakthiyogasrilanka/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank">
+                              Bhakthi Yoga Sri Lanka
+                          </a>
+                          (@bhakthiyogasrilanka) on
+                          <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2019-10-02T06:47:05+00:00">Oct 1, 2019 at 11:47pm PDT</time>
+                      </p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
           </div>
-          </div>
+            <!-- Instagram feed End-->
         </div>
-
+      </div>
     </div>
-    </div>    
+  </div>
 
-
-    
     <footer class="site-footer">
       <div class="container">       
 
