@@ -131,7 +131,12 @@
       <div class="image bg-image" style="background-image: url('images/img_1.jpg');"></div>
       <div class="text">
         <h2 class="font-family-serif">Welcome To Bhakthi Yoga Sri Lanka</h2><br>
-        <p class="mb-5">When one starts to connect with their true self one has started their practice of bhakthi; their spiritual path.<br><br>Depending where you find yourself on your personal journey Bhakthi Yoga offers yoga classes for all levels as well as meditation and Reiki in order to support you in your path. Bhakthi yoga is a place where you can find a spiritual community where everyone is welcome. </p>  
+        <p class="mb-5">
+            When one starts to connect with their true self one has started their practice of bhakthi; their spiritual path.<br><br>
+            Depending where you find yourself on your personal journey Bhakthi Yoga offers yoga classes for all levels as well as
+            meditation and Reiki in order to support you in your path. Bhakthi yoga is a place where you can find a spiritual
+            community where everyone is welcome.
+        </p>
       </div>
     </div>
 
@@ -356,7 +361,13 @@
 			  
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | <a href="http://www.mindspacelabs.com" target="_blank">MindSpaceLabs.com</a> <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy;
+                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+                <script>document.write(new Date().getFullYear());</script>
+                All Rights Reserved |
+                <a href="http://www.mindspacelabs.com" target="_blank">MindSpaceLabs.com</a>
+                <i class="icon-heart text-primary" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>          
