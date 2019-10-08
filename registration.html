@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="images/logo_icon.ico" type="image/x-icon" />
+    <title>Bhakthi Yoga - Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,500' rel='stylesheet' type='text/css'>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+<div class="site-wrap">
+
+    <div class="site-mobile-menu">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+
+
+    <div  class="site-navbar-wrap-contact js-site-navbar">
+        <div class="container">
+            <div class="site-navbar">
+                <div class="py-1">
+                    <div class="row align-items-center">
+                        <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-4 ">
+                            <a href="index.php"><img src="images/logo.png" alt="Image" class="img-fluid"></a>
+                        </div>
+                        <div class="col-xl-10 col-lg-10 col-md-9 col-sm-8 col-8 ">
+                            <nav class="site-navigation text-right" role="navigation">
+                                <div class="container">
+
+                                    <div class="d-inline-block d-lg-none  ml-md-0 mr-auto py-3">
+                                        <a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu h3"></span></a>
+                                    </div>
+                                    <ul class="site-menu js-clone-nav d-none d-lg-block">
+                                        <li>
+                                            <a href="index.php" >Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="classes.html">Yoga Classes</a>
+                                        </li>
+                                        <li><a href="events.html">Events</a></li>
+                                        <li class="active"><a href="registration.html">Register</a> </li>
+                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="about.html">The Team</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="site-section site-section-sm bg-light">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center section-heading mt-5">
+                    <h2>Class Registration</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-12">
+                    <form name="contactForm" method="post" action="register.php" class="p-5">
+
+                        <div class="row form-group">
+                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0">
+                                <label class="font-weight-bold" for="optone">Select Teacher</label>
+                                <select class="form-control" name="optone" id="optone" size="1" onchange="setOptions(this,'opttwo',Options1);setOptions(this,'opttwoo',Options2);">
+                                    <option value="0" selected="selected">--Select a Teacher--</option>
+                                    <option value="Valeria Lozovskaya">Valeria Lozovskaya</option>
+                                    <option value="Yogi Nizar">Yogi Nizar</option>
+                                    <option value="Valérie" disabled>Valérie</option>
+                                    <option value="Neil De Silva" disabled>Neil De Silva</option>
+                                    <option value="Warren Buttery" disabled>Warren Buttery</option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0">
+                                <label class="font-weight-bold" for="opttwo">Select Class</label>
+                                <select class="form-control" name="opttwo" id="opttwo" size="1" onchange="setOptions(this,'opttwoo',Options3);">
+                                    <option value=" " selected="selected"></option>
+                                </select>
+                            </div>
+
+                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0">
+                                <label class="font-weight-bold" for="opttwoo">Select Time</label>
+                                <select class="form-control" name="opttwoo" id="opttwoo" size="1">
+                                    <option value=" " selected="selected">
+                                    </option>
+                                </select>
+                            </div>
+
+
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12 mb-3 mb-md-0">
+                                <label class="font-weight-bold" for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Full Name">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="font-weight-bold" for="email">Email</label>
+                                <input type="email" id="email" name="email"  class="form-control" placeholder="Email Address">
+                            </div>
+                        </div>
+
+
+                        <div class="row form-group">
+                            <div class="col-md-12 mb-3 mb-md-0">
+                                <label class="font-weight-bold" for="phone">Phone</label>
+                                <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone #">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <input type="submit" value="Register" class="btn btn-primary pill text-white px-5 py-2">
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12" align="center">
+                    <p>
+                        <a href="https://www.facebook.com/bhakthiyogasrilanka" target="_blank" class="pb-2 pr-1 pl-0"><span class="icon-facebook"></span></a>
+                        <a href="https://www.instagram.com/bhakthiyogasrilanka/" target="_blank" class="p-2"><span class="icon-instagram"></span></a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p>
+                        +94 761 744 453 | <a href="https://www.bhakthiyogasrilanka.com" target="_blank">www.bhakthiyogasrilanka.com</a>  |  <a href= "mailto:info@bhakthiyogasrilanka.com" > info@bhakthiyogasrilanka.com </a>
+                    </p>
+
+                    <p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | <a href="http://www.mindspacelabs.com" target="_blank">MindSpaceLabs.com</a> <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="js/aos.js"></script>
+
+
+<script src="js/mediaelement-and-player.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<script>
+    var Options1=[];
+    Options1['0']=[['Please select a Teacher','na']];
+    Options1['Valeria Lozovskaya']=[['Mysore Style Ashtanga','Mysore Style Ashtanga'],['Yoga for beginners','Yoga for beginners'],['Pranayama','Pranayama'],['Prenatal Yoga','Prenatal Yoga'],['Prenatal Yoga Workshop','Prenatal Yoga Workshop']];
+    Options1['Yogi Nizar']=[['Pranayama','Pranayama'],['Classical Yoga and Meditation','Classical Yoga and Meditation'], ];
+    Options1['Valérie']=[['','threeone']];
+    Options1['Neil De Silva']=[['','fourone']];
+    Options1['Warren Buttery']=[['','fiveone']];
+
+    var Options2=[];
+    Options2['0']=[['','na']];
+    Options2['Valeria Lozovskaya']=[['Thursday - 7.00am to 9.00am','Thursday - 7.00am to 9.00am']];
+    Options2['Yogi Nizar']=[['Monday - 9.30 am to 10.30 am','Monday - 9.30 am to 10.30 am'],['Tuesday - 9.30 am to 10.30 am','Tuesday - 9.30 am to 10.30 am'], ['Wednesday - 9.30 am to 10.30 am','Wednesday - 9.30 am to 10.30 am'], ['Thursday - 9.30 am to 10.30 am','Thursday - 9.30 am to 10.30 am'], ['Friday - 9.30 am to 10.30 am','Friday - 9.30 am to 10.30 am']];
+    Options2['Valérie']=[['','threeone']];
+    Options2['Neil De Silva']=[['','fourone']];
+    Options2['Warren Buttery']=[['','fourone']];
+
+    var Options3=[];
+    Options3['Mysore Style Ashtanga']=[['Thursday - 7.00am to 9.00am']];
+    Options3['Yoga for beginners']=[['Monday - 7.30 am to 9.00 am'],['Monday - 6.30 pm to 8.00 pm']];
+    Options3['Pranayama']=[['Monday 3.30 pm to 4.30 pm']];
+    Options3['Prenatal Yoga']=[['Monday 10.30 am to 11.30 am'],['Thursday 10.30 am to 11.30 am']];
+    Options3['Prenatal Yoga Workshop']=[['12th of October 4.30 pm to 6.00 pm']];
+
+    Options3['Pranayama']=[['Monday - 9.30 am to 10.30 am'],['Tuesday - 9.30 am to 10.30 am'], ['Wednesday - 9.30 am to 10.30 am'], ['Thursday - 9.30 am to 10.30 am'], ['Friday - 9.30 am to 10.30 am']];
+    Options3['Classical Yoga and Meditation']=[['Monday - 6.30 pm to 8.00 pm'],['Tuesday - 6.30 pm to 8.00 pm'], ['Wednesday - 6.30 pm to 8.00 pm'], ['Thursday - 6.30 pm to 8.00 pm'], ['Friday - 6.30 pm to 8.00 pm']];
+
+    Options3['threeone']=[['','na']];
+
+    Options3['fourone']=[['','na']];
+
+    Options3['fourone']=[['','na']];
+
+    function setOptions(s,t,a){
+        var frm=s.form,chosen=s.value,selbox=frm[t];
+        if (selbox){
+            selbox.options.length = 0;
+            if (a[chosen]){
+                a=a[chosen];
+                for (var z0=0;z0<a.length;z0++){
+                    selbox.options[z0] = new Option(a[z0][0],a[z0][1]);
+                }
+            }
+        }
+
+
+    }
+
+</script>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
+
+        for (var i = 0; i < total; i++) {
+            new MediaElementPlayer(mediaElements[i], {
+                pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
+                shimScriptAccess: 'always',
+                success: function () {
+                    var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
+                    for (var j = 0; j < targetTotal; j++) {
+                        target[j].style.visibility = 'visible';
+                    }
+                }
+            });
+        }
+    });
+</script>
+
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+
+</body>
+</html>

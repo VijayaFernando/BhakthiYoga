@@ -64,6 +64,7 @@
                         <a href="classes.html">Yoga Classes</a>
                       </li>
                         <li><a href="events.html">Events</a></li>
+                        <li><a href="registration.html">Register</a> </li>
                         <li><a href="gallery.html">Gallery</a></li>
                         <li><a href="about.html">The Team</a></li>
                         <li><a href="contact.html">Contact</a></li>
