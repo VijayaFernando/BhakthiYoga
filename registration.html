@@ -98,10 +98,10 @@
                     <form name="contactForm" method="post" action="register.php" class="p-5">
 
                         <div class="row form-group">
-                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0">
+                            <div class="col-sm-12 col-lg-6 mb-3">
                                 <label class="font-weight-bold" for="optone">Select Teacher</label>
-                                <select class="form-control" name="optone" id="optone" size="1" onchange="setOptions(this,'opttwo',Options1);setOptions(this,'opttwoo',Options2);">
-                                    <option value="0" selected="selected">--Select a Teacher--</option>
+                                <select class="form-control" name="optone" id="optone" onchange="setOptions(this,'opttwo',Options1);setOptions(this,'opttwoo',Options2);">
+                                    <option value="0" selected="selected" disabled>--Select a Teacher--</option>
                                     <option value="Valeria Lozovskaya">Valeria Lozovskaya</option>
                                     <option value="Yogi Nizar">Yogi Nizar</option>
                                     <option value="Valérie" disabled>Valérie</option>
@@ -110,50 +110,48 @@
                                 </select>
                             </div>
 
-                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0">
+                            <div class="col-sm-12 col-lg-6 mb-3 ">
                                 <label class="font-weight-bold" for="opttwo">Select Class</label>
-                                <select class="form-control" name="opttwo" id="opttwo" size="1" onchange="setOptions(this,'opttwoo',Options3);">
-                                    <option value=" " selected="selected"></option>
+                                <select class="form-control" name="opttwo" id="opttwo"onchange="setOptions(this,'opttwoo',Options3);">
+                                    <option value="0" selected="selected" disabled>--Select a Teacher--</option>
                                 </select>
                             </div>
 
-                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0">
+                            <div class="col-sm-12 col-lg-6 mb-3">
                                 <label class="font-weight-bold" for="opttwoo">Select Time</label>
-                                <select class="form-control" name="opttwoo" id="opttwoo" size="1">
-                                    <option value=" " selected="selected">
-                                    </option>
+                                <select class="form-control" name="opttwoo" id="opttwoo">
+                                    <option value="0" selected="selected" disabled>--Select a Teacher--</option>
                                 </select>
                             </div>
 
-
-                        </div>
-
-                        <div class="row form-group">
-                            <div class="col-md-12 mb-3 mb-md-0">
+                            <div class="col-sm-12 col-lg-6 mb-3 ">
                                 <label class="font-weight-bold" for="fullname">Full Name</label>
                                 <input type="text" id="fullname" name="fullname" class="form-control" placeholder="Full Name">
                             </div>
-                        </div>
 
-                        <div class="row form-group">
-                            <div class="col-md-12">
+                            <div class="col-sm-12 col-lg-6 mb-3">
                                 <label class="font-weight-bold" for="email">Email</label>
                                 <input type="email" id="email" name="email"  class="form-control" placeholder="Email Address">
                             </div>
-                        </div>
 
-
-                        <div class="row form-group">
-                            <div class="col-md-12 mb-3 mb-md-0">
+                            <div class="col-sm-12 col-lg-6 mb-3">
                                 <label class="font-weight-bold" for="phone">Phone</label>
                                 <input type="text" id="phone" name="phone" class="form-control" placeholder="Phone #">
                             </div>
                         </div>
 
                         <div class="row form-group">
-                            <div class="col-md-12">
-                                <input type="submit" value="Register" class="btn btn-primary pill text-white px-5 py-2">
+
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-12 col-md-6 text-center">
+                                <input type="submit" value="Register" class="btn btn-primary pill text-white px-5 py-2 ">
                             </div>
+                            <div class="col-sm-12 col-md-6 text-center mt-3 mt-md-0">
+                                <input type="reset" value="Reset" class="btn btn-danger pill text-white px-5 py-2 ">
+                            </div>
+
                         </div>
 
                     </form>
@@ -221,15 +219,15 @@
 
     var Options2=[];
     Options2['0']=[['','na']];
-    Options2['Valeria Lozovskaya']=[['Thursday - 7.00am to 9.00am','Thursday - 7.00am to 9.00am']];
+    Options2['Valeria Lozovskaya']=[['Monday - 7.30am to 9.00am','Monday - 7.30am to 9.00am'],['Thursday - 7.30am to 9.00am','Thursday - 7.30am to 9.00am']];
     Options2['Yogi Nizar']=[['Monday - 9.30 am to 10.30 am','Monday - 9.30 am to 10.30 am'],['Tuesday - 9.30 am to 10.30 am','Tuesday - 9.30 am to 10.30 am'], ['Wednesday - 9.30 am to 10.30 am','Wednesday - 9.30 am to 10.30 am'], ['Thursday - 9.30 am to 10.30 am','Thursday - 9.30 am to 10.30 am'], ['Friday - 9.30 am to 10.30 am','Friday - 9.30 am to 10.30 am']];
     Options2['Valérie']=[['','threeone']];
     Options2['Neil De Silva']=[['','fourone']];
     Options2['Warren Buttery']=[['','fourone']];
 
     var Options3=[];
-    Options3['Mysore Style Ashtanga']=[['Thursday - 7.00am to 9.00am']];
-    Options3['Yoga for beginners']=[['Monday - 7.30 am to 9.00 am'],['Monday - 6.30 pm to 8.00 pm']];
+    Options3['Mysore Style Ashtanga']=[['Monday - 7.30am to 9.00am'],['Thursday - 7.30am to 9.00am']];
+    Options3['Yoga for beginners']=[['Monday - 6.30 am to 8.00 am']];
     Options3['Pranayama']=[['Monday 3.30 pm to 4.30 pm']];
     Options3['Prenatal Yoga']=[['Monday 10.30 am to 11.30 am'],['Thursday 10.30 am to 11.30 am']];
     Options3['Prenatal Yoga Workshop']=[['12th of October 4.30 pm to 6.00 pm']];

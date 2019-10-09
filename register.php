@@ -26,7 +26,7 @@ if(isset($_POST['email']))
 
     $fullname = $_POST['fullname']; // required
     $email = $_POST['email']; // required
-    $phone = $_POST['phone']; // not required
+    $phone = $_POST['phone']; //required
     $teacher = $_POST['optone']; // required
     $class = $_POST['opttwo'];// required
     $time = $_POST['opttwoo'];// required
@@ -44,8 +44,12 @@ if(isset($_POST['email']))
         $error_message .= 'The Name you entered does not appear to be valid.<br />';
     }
 
+    if(strlen($phone) < 9) {
+        $error_message .= 'Please Insert a correct phone number<br />';
+    }
+
     if(strlen($teacher) < 2) {
-        $error_message .= $teacher.$class.$time.'Please Select a Teacher<br />';
+        $error_message .= 'Please Select a Teacher<br />';
     }
 
     if(strlen($class) < 2) {
@@ -63,21 +67,22 @@ if(isset($_POST['email']))
         $from = $_POST['email'];
         $firstname = $_POST['fullname'];
         $phone = $_POST['phone'];
-        $emailbody = "Name: ".$firstname . "\n" . "Teacher: " . $teacher."\n"  . "Class: " . $class."\n" . "Time: " . $time."\n" . "\nTel: " . $phone;
+        $emailbody = "Name: ".$firstname . "\n" . "Teacher: " . $teacher."\n"  . "Class: " . $class."\n" . "Time: " . $time."\n" . "Tel: " . $phone;
 
         $headers = "From:" . $from;
 
         if(mail($to,$subject,$emailbody,$headers))
-            echo "<font colour='green' >Mail Sent. Thank you </font>" . $firstname . ", we will contact you shortly.";
+            echo "Mail Sent. Thank you" . $firstname . ", we will contact you shortly.";
         else
             echo"Mail Sent Failed";
 
         echo '<script>
             setTimeout(function() {
             //your code to be executed after 1 second
-            
-            }, 300000);
+            alert("Your class registration is successful. Thank you.");
             window.location.href = "../";
+            }, 300);
+            
             </script>';
 
 

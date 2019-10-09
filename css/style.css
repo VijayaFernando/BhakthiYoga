@@ -1658,3 +1658,20 @@ a {
   transform: scale(1.05);
 
 }
+
+.galleryheader{
+  margin-top: 0;
+}
+
+@media (max-width: 767.98px) {
+  iframe {
+    width: 90%;
+  }
+
+  .modal-content {
+    width: 90%;
+  }
+  .galleryheader{
+    margin-top: 2em;
+  }
+}

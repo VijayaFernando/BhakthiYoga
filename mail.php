@@ -77,9 +77,9 @@
             echo '<script>
             setTimeout(function() {
             //your code to be executed after 1 second
-            
-            }, 300000);
+            alert("Your Email is successfully send. Thank you.");
             window.location.href = "../";
+            }, 300);            
             </script>';
             }
 
