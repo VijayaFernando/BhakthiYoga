@@ -71,15 +71,22 @@ if(isset($_POST['email']))
 
         $headers = "From:" . $from;
 
-        if(mail($to,$subject,$emailbody,$headers))
-            echo "Mail Sent. Thank you" . $firstname . ", we will contact you shortly.";
+        if(mail($to,$subject,$emailbody,$headers)){
+            $headers = 'From: <info@bhakthiyogasrilanka.com>';
+            $subject = "Bhakthi Yoga Sri Lanka: Class Registeration";
+            $emailbody = "You have successfully register to below class.\n\n"."Name: ".$firstname . "\n" . "Teacher: "
+                . $teacher."\n"  . "Class: " . $class."\n" . "Time: " . $time."\n" . "Tel: " . $phone.
+                "\n\nFor change the shedule or any other queries contact us.\nThank You,\nBest Regards,\nBhakthiYoga.";
+            if(mail($from,$subject,$emailbody,$headers))
+            echo "Mail Sent. Thank you " . $firstname . ", we will contact you shortly.";
+        }
         else
             echo"Mail Sent Failed";
 
         echo '<script>
             setTimeout(function() {
             //your code to be executed after 1 second
-            alert("Your class registration is successful. Thank you.");
+            alert("Your class registration is successful. Check your inbox. \nThank you.");
             window.location.href = "../";
             }, 300);
             
