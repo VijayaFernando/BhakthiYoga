@@ -1,0 +1,10 @@
+User-Agent: *
+Allow: /
+Allow: /index.php
+Allow: /yoga_classes_bhakthiyoga_sri_lanka.html
+Allow: /accommodation_bhakthi_yoga_sri_lanka.html
+Allow: /events_bhakthi_yoga_sri_lanka.html
+Allow: /registration_bhakthi_yoga_sri_lanka.html
+Allow: /gallery_bhakthi_yoga_sri_lanka.html
+Allow: /teachers_bhakthi_yoga_sri_lanka.html
+Allow: /contact_bhakthi_yoga_sri_lanka.html
