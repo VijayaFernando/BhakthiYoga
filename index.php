@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<link rel="icon" href="images/logo_icon.ico" type="image/x-icon" />
-    <title>Bhakthi Yoga - Home</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136829024-2"></script>
+      <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
 
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+          gtag('config', 'UA-136829024-2');
+      </script>
+
+      <link rel="icon" href="images/logo_icon.ico" type="image/x-icon" />
+      <title>Bhakthi Yoga - Home</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Meta Keyword -->
+      <meta name="keywords" content="yoga,Yoga classes, yoga retreat, yoga colombo, bhakthiyoga, bhakthiyoga sri lanka, bhakthiyoga srilanka, ashtanga, hatha, reiki healing, body therapy, stress management">
+      <meta name="description" content="Join us at Bhakthi Yoga Sri Lankan for Yoga Classes in Colombo.">
+
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
+      <link rel="stylesheet" href="fonts/icomoon/style.css">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -61,14 +74,14 @@
                         <a href="index.php">Home</a>
                       </li>
                       <li>
-                        <a href="classes.html">Yoga Classes</a>
+                        <a href="yoga_classes_bhakthiyoga_sri_lanka.html">Yoga Classes</a>
                       </li>
-                        <li><a href="accommodation.html">Accommodation</a></li>
-                        <li><a href="events.html">Events</a></li>
-                        <li><a href="registration.html">Register</a> </li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="about.html">The Team</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="accommodation_bhakthi_yoga_sri_lanka.html">Accommodation</a></li>
+                        <li><a href="events_bhakthi_yoga_sri_lanka.html">Events</a></li>
+                        <li><a href="registration_bhakthi_yoga_sri_lanka.html">Register</a> </li>
+                        <li><a href="gallery_bhakthi_yoga_sri_lanka.html">Gallery</a></li>
+                        <li><a href="teachers_bhakthi_yoga_sri_lanka.html">The Team</a></li>
+                        <li><a href="contact_bhakthi_yoga_sri_lanka.html">Contact</a></li>
                     </ul>
                   </div>
                 </nav>
@@ -154,7 +167,7 @@
 
           <div  class="col-md-6 col-lg-4 mb-5">
             <div id="1" class="program">
-              <img src="images/ashtanga.jpg" alt="Image" class="img-fluid">
+              <img src="images/ashtanga&hatha.jpg" alt="Ashtanga and Hatha Image" class="img-fluid">
               <div class="program-body">
                 <h3 class="heading mb-2" >Ashtanga &amp; Hatha yoga classes</h3>
                 <div class="para"><p>Traditional Ashtanga and Hatha yoga classes. All levels are welcome </p></div>
@@ -165,7 +178,7 @@
 
           <div id="2" class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <img src="images/guided.jpg" alt="Image" class="img-fluid">
+              <img src="images/guided_meditation.jpg" alt="Guided Meditation Image" class="img-fluid">
               <div class="program-body">
                 <h3 class="heading mb-2">Guided Meditation</h3>
                 <div class="para"><p >Connection to the breath followed by dynamic meditation, sound healing and chanting.</p></div>
@@ -176,7 +189,7 @@
 
           <div id="3" class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <img src="images/personalized.jpg" alt="Image" class="img-fluid">
+              <img src="images/personalized_yoga.jpg" alt="Personalized Yoga Image" class="img-fluid">
               <div class="program-body">
                 <h3 class="heading mb-2">Personalized Yoga and Meditation Session</h3>
                 <div class="para" id="para1">
@@ -196,7 +209,7 @@
 
           <div id="4" class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <img src="images/reika.jpg" alt="Image" class="img-fluid">
+              <img src="images/reiki _healing.jpg" alt="Reiki Healing Image" class="img-fluid">
               <div class="program-body">
                 <h3 class="heading mb-2">Reiki Healing Session</h3>
                 <div class="para">
@@ -208,7 +221,7 @@
 
           <div id="5" class="col-md-6 col-lg-4 mb-5">
             <div  class="program">
-              <img src="images/deep.jpg" alt="Image" class="img-fluid">
+              <img src="images/body_therapy.jpg" alt="Body Therapy Image" class="img-fluid">
               <div class="program-body">
                 <h3 class="heading mb-2">Body Therapy – Deep Massage, Stretching</h3>
                 <div class="para"><p>Enjoy the release from chronic pains, long-term muscle pains as well as stress. Completed by a sound healing session with tibetan sound bowls.</p></div>
@@ -219,7 +232,7 @@
 
           <div id="6" class="col-md-6 col-lg-4 mb-5">
             <div class="program">
-              <img src="images/img_5.jpg" alt="Image" class="img-fluid">
+              <img src="images/stress_management.jpg" alt="Stress Management Image" class="img-fluid">
               <div class="program-body">
                 <h3 class="heading mb-2">Stress Management and Team Building</h3>
                 <div class="para" id="para2"><p>Stress Management and Team Building  - Half day or full day course that is tailor made to your company. How to manage stress with correct breathing being in right
@@ -312,7 +325,7 @@
                                   <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
                               </div>
                               <div style="margin-left: auto;">
-                                  <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+                                  <div style=" width: 0; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
                                   <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
                                   <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
                               </div>
@@ -346,7 +359,7 @@
       <div class="container">       
 
         <div class="row">           
-              <div class="col-md-12" align="center">
+              <div class="col-md-12 text-center">
                 <p>
                   <a href="https://www.facebook.com/bhakthiyogasrilanka" target="_blank" class="pb-2 pr-1 pl-0"><span class="icon-facebook"></span></a>
                   <a href="https://www.instagram.com/bhakthiyogasrilanka/" target="_blank" class="p-2"><span class="icon-instagram"></span></a>
@@ -364,8 +377,7 @@
             <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;
-                <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-                <script>document.write(new Date().getFullYear());</script>
+                <script>document.write(new Date().getFullYear().toString());</script>
                 All Rights Reserved |
                 <a href="http://www.mindspacelabs.com" target="_blank">MindSpaceLabs.com</a>
                 <i class="icon-heart text-primary" aria-hidden="true"></i> by
@@ -390,36 +402,15 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
-
   
   <script src="js/mediaelement-and-player.min.js"></script>
 
   <script src="js/main.js"></script>
-    
 
   <script>
-      document.addEventListener('DOMContentLoaded', function() {
-                var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
-
-                for (var i = 0; i < total; i++) {
-                    new MediaElementPlayer(mediaElements[i], {
-                        pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-                        shimScriptAccess: 'always',
-                        success: function () {
-                            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
-                            for (var j = 0; j < targetTotal; j++) {
-                                target[j].style.visibility = 'visible';
-                            }
-                  }
-                });
-                }
-            });
-    </script>
-
-  <script>
-    var first = document.getElementById('readMoreViewMore1');
-    var second = document.getElementById('para1');
-    var third = document.getElementById('readMoreViewLess1');
+      const first = document.getElementById('readMoreViewMore1');
+      const second = document.getElementById('para1');
+      const third = document.getElementById('readMoreViewLess1');
 
     first.addEventListener('click', function () {
       second.style.height = 'auto';
@@ -436,9 +427,9 @@
   </script>
 
   <script>
-    var first1 = document.getElementById('readMoreViewMore2');
-    var second1 = document.getElementById('para2');
-    var third1 = document.getElementById('readMoreViewLess2');
+      const first1 = document.getElementById('readMoreViewMore2');
+      const second1 = document.getElementById('para2');
+      const third1 = document.getElementById('readMoreViewLess2');
 
     first1.addEventListener('click', function () {
       second1.style.height = 'auto';

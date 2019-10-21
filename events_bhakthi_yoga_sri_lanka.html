@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-136829024-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-136829024-2');
+  </script>
+
   <link rel="icon" href="images/logo_icon.ico" type="image/x-icon" />
   <title>Bhakthi Yoga - Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Meta Keyword -->
+  <meta name="keywords" content="yoga,Yoga classes, yoga retreat, yoga colombo, bhakthiyoga, bhakthiyoga sri lanka, yoga events, bhakthiyoga srilanka, ashtanga, hatha, reiki healing, body therapy, stress management">
+  <meta name="description" content="Bhakthi Yoga Sri Lanka ">
 
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -60,14 +73,14 @@
                       <a href="index.php" >Home</a>
                     </li>
                     <li>
-                      <a href="classes.html">Yoga Classes</a>
+                      <a href="yoga_classes_bhakthiyoga_sri_lanka.html">Yoga Classes</a>
                     </li>
-                    <li><a href="accommodation.html">Accommodation</a></li>
-                    <li  class="active"><a href="events.html">Events</a></li>
-                    <li><a href="registration.html">Register</a> </li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="about.html">The Team</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="accommodation_bhakthi_yoga_sri_lanka.html">Accommodation</a></li>
+                    <li  class="active"><a href="events_bhakthi_yoga_sri_lanka.html">Events</a></li>
+                    <li><a href="registration_bhakthi_yoga_sri_lanka.html">Register</a> </li>
+                    <li><a href="gallery_bhakthi_yoga_sri_lanka.html">Gallery</a></li>
+                    <li><a href="teachers_bhakthi_yoga_sri_lanka.html">The Team</a></li>
+                    <li><a href="contact_bhakthi_yoga_sri_lanka.html">Contact</a></li>
                   </ul>
                 </div>
               </nav>
@@ -90,7 +103,7 @@
 
         <div  class="col-md-6 col-lg-4 mb-5">
           <div class="program">
-            <img src="images/workshop_1.jpg" alt="Image" class="img-fluid">
+            <img src="images/ashtanga_workshop.jpg" alt="Mysore Style Ashtanga Workshop Image" class="img-fluid">
             <div class="program-body">
               <h3 class="heading2 mb-2 text-center" >Mysore Style Ashtanga Workshop</h3>
               <h3 class="heading3 mb-2 text-right">– by Valeria</h3>
@@ -108,7 +121,7 @@
 
         <div  class="col-md-6 col-lg-4 mb-5">
           <div class="program">
-            <img src="images/c_prenatal_workshop.jpg" alt="Image" class="img-fluid">
+            <img src="images/prenatal_workshop.jpg" alt="Prenatal Yoga Workshop Image" class="img-fluid">
             <div class="program-body">
               <h3 class="heading2 mb-2 text-center" >Prenatal Yoga Workshop</h3>
               <h3 class="heading3 mb-2 text-right">– by Valeria</h3>
@@ -139,7 +152,7 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-md-12" align="center">
+        <div class="col-md-12 text-center">
           <p>
             <a href="https://www.facebook.com/bhakthiyogasrilanka" target="_blank" class="pb-2 pr-1 pl-0"><span class="icon-facebook"></span></a>
             <a href="https://www.instagram.com/bhakthiyogasrilanka/" target="_blank" class="p-2"><span class="icon-instagram"></span></a>
@@ -156,7 +169,7 @@
 
           <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All Rights Reserved | <a href="http://www.mindspacelabs.com" target="_blank">MindSpaceLabs.com</a> <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy; <script>document.write(new Date().getFullYear().toString());</script> All Rights Reserved | <a href="http://www.mindspacelabs.com" target="_blank">MindSpaceLabs.com</a> <i class="icon-heart text-primary" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
@@ -184,30 +197,10 @@
 
   <script src="js/main.js"></script>
 
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var mediaElements = document.querySelectorAll('video, audio'), total = mediaElements.length;
-
-      for (var i = 0; i < total; i++) {
-        new MediaElementPlayer(mediaElements[i], {
-          pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-          shimScriptAccess: 'always',
-          success: function () {
-            var target = document.body.querySelectorAll('.player'), targetTotal = target.length;
-            for (var j = 0; j < targetTotal; j++) {
-              target[j].style.visibility = 'visible';
-            }
-          }
-        });
-      }
-    });
-  </script>
-
   <!-- Load Facebook SDK for JavaScript -->
   <div id="fb-root"></div>
   <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
+    let js, fjs = d.getElementsByTagName(s)[0];
     if (d.getElementById(id)) return;
     js = d.createElement(s); js.id = id;
     js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
