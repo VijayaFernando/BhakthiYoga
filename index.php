@@ -17,8 +17,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Meta Keyword -->
       <meta name="keywords" content="yoga,Yoga classes, yoga retreat, yoga colombo, bhakthiyoga, bhakthiyoga sri lanka, bhakthiyoga srilanka, ashtanga, hatha, reiki healing, body therapy, stress management">
-      <meta name="description" content="Join us at Bhakthi Yoga Sri Lankan for Yoga Classes in Colombo.">
+      <meta name="description" content="Join us at Bhakthi Yoga Sri Lanka for Yoga Classes in Colombo.">
       <meta name="robots" content="All"/>
+      <meta name="google-site-verification" content="5pqN-DM54DaEWkAyyWVjc4fWKgHDhog2qULuDiZJ9MU" />
 
       <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Work+Sans:300,400,700" rel="stylesheet">
       <link rel="stylesheet" href="fonts/icomoon/style.css">
